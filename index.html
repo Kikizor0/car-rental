@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <!-- Nav-bar -->
+      <nav>
+        <div class="container">
+          <a href="index.html"><img src="./imgs/logo.png" alt="" /></a>
+
+          <ul>
+            <li><a href="#header">Book</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#cars">Cars</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#footer">Contact</a></li>
+            <li><a href="#footer">Pages</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Header-content -->
+      <div class="container">
+        <div class="rent-car">
+          <h6>The Royal Essence of Journey</h6>
+          <h2>Relaxed Journey Ever</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ex
+            quibusdam reiciendis eius ea esse? Explicabo molestias tempora
+            suscipit sint at unde quasi beatae totam, reiciendis blanditiis
+            praesentium cupiditate libero?
+          </p>
+          <a href="#cars">Rent Car Now</a>
+        </div>
+        <div class="book-car">
+          <form action="">
+            <h5>Book Your Car Today!</h5>
+            <input
+              name="carmodel"
+              list="models"
+              placeholder="Select Your Car"
+            />
+            <datalist id="models" class="">
+              <option value="Volkswagen"></option>
+              <option value="Toyota"></option>
+              <option value="BMW"></option>
+              <option value="Mercedes"></option>
+              <option value="Aston Martin"></option>
+            </datalist>
+            <div>
+              <input
+                name="pickuplocation"
+                list="locations"
+                placeholder="Pickup"
+              />
+              <datalist id="locations" class="">
+                <option value="Cairo"></option>
+                <option value="Alexandria"></option>
+                <option value="Tanta"></option>
+                <option value="Mansoura"></option>
+                <option value="Giza"></option>
+              </datalist>
+              <input type="datetime-local" name="" id="" />
+              <input
+                name="dropofflocation"
+                list="locations"
+                placeholder="Drop Off"
+              />
+              <input type="datetime-local" name="" id="" />
+            </div>
+            <input type="text" name="" id="" placeholder="Your name" />
+            <input type="email" name="" id="" placeholder="Email address" />
+            <input type="number" name="" id="" placeholder="Phone number" />
+            <input type="submit" value="Confirm Car Booking" />
+          </form>
+        </div>
+      </div>
+    </header>
+    <!-- Services -->
+    <section id="services">
+      <div class="container">
+        <h2 class="text-center">What Services We Offer for Our Clients</h2>
+        <p class="lead text-center">
+          Who are in extremly love with eco friendly system
+        </p>
+        <div>
+          <article>
+            <h6>
+              <img src="./imgs/icons/ico1.jpg" alt="" /> Expert Technicians
+            </h6>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi
+              nulla eveniet tenetur, assumenda recusandae vitae.
+            </p>
+          </article>
+          <article>
+            <h6>
+              <img src="./imgs/icons/ico2.jpg" alt="" /> Professional Services
+            </h6>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi
+              nulla eveniet tenetur, assumenda recusandae vitae.
+            </p>
+          </article>
+          <article>
+            <h6><img src="./imgs/icons/ico3.jpg" alt="" /> Great Support</h6>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi
+              nulla eveniet tenetur, assumenda recusandae vitae.
+            </p>
+          </article>
+          <article>
+            <h6><img src="./imgs/icons/ico4.jpg" alt="" /> Technical Skills</h6>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi
+              nulla eveniet tenetur, assumenda recusandae vitae.
+            </p>
+          </article>
+          <article>
+            <h6><img src="./imgs/icons/ico5.jpg" alt="" /> Higly Recomended</h6>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi
+              nulla eveniet tenetur, assumenda recusandae vitae.
+            </p>
+          </article>
+          <article>
+            <h6><img src="./imgs/icons/ico6.jpg" alt="" /> Positive Reviews</h6>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi
+              nulla eveniet tenetur, assumenda recusandae vitae.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div>
+          <img src="./imgs/about-img.jpg" alt="" />
+          <article>
+            <h2>Globally Connected by large Network</h2>
+            <p>We are here to listen from your deliver exellence</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              et minus tenetur sapiente praesentium mollitia, illo quasi
+              voluptate perspiciatis veniam laboriosam animi fuga ipsam adipisci
+              quo aliquid ut exercitationem iste.
+            </p>
+            <a href="">Get Details</a>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- Cars -->
+    <section id="cars">
+      <div class="container">
+        <h2>Choose Your Desired Car Model</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum,
+          corrupti!
+        </p>
+        <!-- Slider -->
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="slider-edited">
+                <div class="price-and-details">
+                  <div>
+                    <h5>Audi 3000 msi</h5>
+                    <h2>$149<span>/day</span></h2>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Praesentium voluptas nam quibusdam eaque rerum, neque sint,
+                    assumenda a quae sapiente eos autem quisquam, commodi
+                    ratione architecto dolores. Optio, a fugit?
+                  </p>
+                  <p>Capacity: 04 Person</p>
+                  <p>Doors: 04 doors</p>
+                  <p>Air Condition: dual zone</p>
+                  <p>Transmission: Automatic</p>
+                  <a href="">Book This Car now</a>
+                </div>
+                <img src="./imgs/car.jpg" class="" alt="..." />
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="slider-edited">
+                <div class="price-and-details">
+                  <div>
+                    <h5>Audi 3000 msi</h5>
+                    <h2>$149<span>/day</span></h2>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Praesentium voluptas nam quibusdam eaque rerum, neque sint,
+                    assumenda a quae sapiente eos autem quisquam, commodi
+                    ratione architecto dolores. Optio, a fugit?
+                  </p>
+                  <p>Capacity: 04 Person</p>
+                  <p>Doors: 04 doors</p>
+                  <p>Air Condition: dual zone</p>
+                  <p>Transmission: Automatic</p>
+                  <a href="">Book This Car now</a>
+                </div>
+                <img src="./imgs/car.jpg" class="" alt="..." />
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="slider-edited">
+                <div class="price-and-details">
+                  <div>
+                    <h5>Audi 3000 msi</h5>
+                    <h2>$149<span>/day</span></h2>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Praesentium voluptas nam quibusdam eaque rerum, neque sint,
+                    assumenda a quae sapiente eos autem quisquam, commodi
+                    ratione architecto dolores. Optio, a fugit?
+                  </p>
+                  <p>Capacity: 04 Person</p>
+                  <p>Doors: 04 doors</p>
+                  <p>Air Condition: dual zone</p>
+                  <p>Transmission: Automatic</p>
+                  <a href="">Book This Car now</a>
+                </div>
+                <img src="./imgs/car.jpg" class="" alt="..." />
+              </div>
+            </div>
+          </div>
+          <!-- Buttons not looking good -->
+          <button
+            class="carousel-control-prev invisible"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <i class="fa-solid fa-arrow-left" style="color: #000000"></i>
+          </button>
+          <button
+            class="carousel-control-next invisible"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <i class="fa-solid fa-arrow-right" style="color: #000000"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Team -->
+    <section id="team">
+      <div class="container">
+        <h2>Experience Great Support</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem officiis aut laborum tenetur soluta voluptatem
+          accusamus, nihil perspiciatis omnis. Similique modi a quas. Molestiae,
+          cupiditate?
+        </p>
+        <a href="">Reach Our Support Team</a>
+      </div>
+    </section>
+    <section id="blog">
+      <div class="container">
+        <h2>Latest From Our Blog</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem officiis aut laborum tenetur soluta voluptatem
+          accusamus, nihil perspiciatis omnis. Similique modi a quas. Molestiae,
+          cupiditate?
+        </p>
+        <div class="blog-posts">
+          <article class="post">
+            <img src="./imgs/b1.jpg" alt="" />
+            <p>22 Nov 2023</p>
+            <h5><a href="">Addiction When Gambling Becomes a Problem</a></h5>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
+              voluptatibus pariatur quam modi iure numquam.
+            </p>
+            <div>
+              <p><img src="./imgs/icons/like-ico.jpg" alt="" /> 15 Likes</p>
+              <p>
+                <img src="./imgs/icons/comment-ico.jpg" alt="" /> 02 Comments
+              </p>
+            </div>
+          </article>
+          <article class="post">
+            <img src="./imgs/b2.jpg" alt="" />
+            <p>22 Nov 2023</p>
+            <h5><a href="">Addiction When Gambling Becomes a Problem</a></h5>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
+              voluptatibus pariatur quam modi iure numquam.
+            </p>
+            <div>
+              <p><img src="./imgs/icons/like-ico.jpg" alt="" /> 15 Likes</p>
+              <p>
+                <img src="./imgs/icons/comment-ico.jpg" alt="" /> 02 Comments
+              </p>
+            </div>
+          </article>
+          <article class="post">
+            <img src="./imgs/b3.jpg" alt="" />
+            <p>22 Nov 2023</p>
+            <h5><a href="">Addiction When Gambling Becomes a Problem</a></h5>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
+              voluptatibus pariatur quam modi iure numquam.
+            </p>
+            <div>
+              <p><img src="./imgs/icons/like-ico.jpg" alt="" /> 15 Likes</p>
+              <p>
+                <img src="./imgs/icons/comment-ico.jpg" alt="" /> 02 Comments
+              </p>
+            </div>
+          </article>
+          <article class="post">
+            <img src="./imgs/b4.jpg" alt="" />
+            <p>22 Nov 2023</p>
+            <h5><a href="">Addiction When Gambling Becomes a Problem</a></h5>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
+              voluptatibus pariatur quam modi iure numquam.
+            </p>
+            <div>
+              <p><img src="./imgs/icons/like-ico.jpg" alt="" /> 15 Likes</p>
+              <p>
+                <img src="./imgs/icons/comment-ico.jpg" alt="" /> 02 Comments
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container">
+        <div>
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="">Jobs</a></li>
+            <li><a href="">Brand Assets</a></li>
+            <li><a href="">Investor Relations</a></li>
+            <li><a href="">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Features</h5>
+          <ul>
+            <li><a href="">Jobs</a></li>
+            <li><a href="">Brand Assets</a></li>
+            <li><a href="">Investor Relations</a></li>
+            <li><a href="">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Resources</h5>
+          <ul>
+            <li><a href="">Jobs</a></li>
+            <li><a href="">Brand Assets</a></li>
+            <li><a href="">Investor Relations</a></li>
+            <li><a href="">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Follow Us</h5>
+          <p>Let us be social</p>
+          <ul class="social-media">
+            <li>
+              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-behance"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Newsletter</h5>
+          <p>Stay updated with our Latest</p>
+          <form action="">
+            <input type="email" name="" id="" placeholder="Enter Email" />
+            <button type="submit">
+              <i class="fa-solid fa-arrow-right" style="color: #fcfcfc"></i>
+            </button>
+          </form>
+        </div>
+        <p class="rights">Copyright &copy; 2023 All rights reserved</p>
+      </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.js"></script>
+  </body>
+</html>
